@@ -35,35 +35,3 @@ describe("POST /weather", () => {
   });
 });
 
-// const request = require("supertest");
-// const app = require("./app.js");
-// ​
-// describe("POST /posts", () => {
-//   describe("given a new blog post title and content", () => {
-//     it("should respond with a 201 status code", (done) => {
-//       request(app)
-//         .post("/posts")
-//         .send({ title: "title", content: "random content" })
-//         .expect(201)
-//         .end(done);
-//     });
-// ​
-//     it("should respond with content-type text/plain", (done) => {
-//       request(app)
-//         .post("/posts")
-//         .send({ title: "title", content: "random content" })
-//         .expect("Content-Type", /text\/plain/)
-//         .end(done);
-//     });
-//   });
-// ​
-//   describe("given only content", () => {
-//     it("should respond with a 400 status code", (done) => {
-//       request(app)
-//         .post("/posts")
-//         .send({ content: "random content" })
-//         .expect(400)
-//         .end(done);
-//     });
-//   });
-// });
